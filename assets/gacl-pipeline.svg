@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="224" viewBox="0 0 1000 224" role="img" aria-labelledby="title description">
+<title id="title">Public-disclosure pipeline</title><desc id="description">Source lineage, validation and repeatable loading. 18 traceable observations. Two public reports · independent portfolio project.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101f36"/><stop offset="1" stop-color="#09121f"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M 32 0 H 0 V 32" fill="none" stroke="#23364b" stroke-width="0.5"/></pattern></defs>
+<rect width="1000" height="224" rx="22" fill="url(#bg)"/>
+<rect width="1000" height="224" rx="22" fill="url(#grid)" opacity="0.32"/>
+<g font-family="DejaVu Sans, Arial, sans-serif">
+<rect x="0" y="28" width="6" height="164" rx="3" fill="#57dfc1"/>
+<text x="34" y="39" fill="#76e6ce" font-size="16" font-weight="700" letter-spacing="2">03 / DATA ENGINEERING</text>
+<text x="34" y="86" fill="#f4f7fc" font-size="34" font-weight="700">Public-disclosure pipeline</text>
+<text x="34" y="124" fill="#c8d7e8" font-size="20">Python · SQLite · BigQuery / dbt</text>
+<text x="34" y="159" fill="#aebfd3" font-size="18">Source lineage, validation and repeatable loading</text>
+<text x="34" y="198" fill="#89a2bc" font-size="16">Two public reports · independent portfolio project</text>
+<path d="M 712 44 V 176" stroke="#294257"/>
+<text x="752" y="104" fill="#76e6ce" font-size="48" font-weight="700">18</text>
+<text x="752" y="141" fill="#d2dfed" font-size="18">traceable observations</text></g></svg>

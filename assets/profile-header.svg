@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="312" viewBox="0 0 1100 312" role="img" aria-labelledby="title description">
+<title id="title">Saurabh Zambare — data, code and operations</title><desc id="description">From operational questions to checked data and useful insights. Analytics, data science and data engineering.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101f36"/><stop offset="1" stop-color="#09121f"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M 32 0 H 0 V 32" fill="none" stroke="#23364b" stroke-width="0.5"/></pattern></defs>
+<rect width="1100" height="312" rx="22" fill="url(#bg)"/>
+<rect width="1100" height="312" rx="22" fill="url(#grid)" opacity="0.32"/>
+<g font-family="DejaVu Sans, Arial, sans-serif">
+<rect x="32" y="32" width="5" height="28" rx="2" fill="#57dfc1"/>
+<text x="52" y="53" fill="#76e6ce" font-size="17" font-weight="700" letter-spacing="3">DATA / CODE / OPERATIONS</text>
+<text x="48" y="119" fill="#f3f7fc" font-size="48" font-weight="700">Saurabh Zambare</text>
+<text x="48" y="175" fill="#edf3fb" font-size="30" font-weight="600">From operational questions</text>
+<text x="48" y="217" fill="#76e6ce" font-size="30" font-weight="600">to checked data and useful insights.</text>
+<text x="48" y="269" fill="#afc1d7" font-size="19">Analytics · Data science · Data engineering</text>
+<rect x="769" y="67" width="283" height="191" rx="16" fill="#102235" stroke="#2a465b"/>
+<path d="M 805 104 V 218" fill="none" stroke="#3e6477" stroke-width="2"/>
+<circle cx="805" cy="104" r="6" fill="#57dfc1"/>
+<circle cx="805" cy="161" r="6" fill="#57dfc1"/>
+<circle cx="805" cy="218" r="6" fill="#57dfc1"/>
+<circle cx="805" cy="104" r="12" fill="none" stroke="#57dfc1" opacity="0.65">
+<animate attributeName="cy" values="104;161;218" dur="3s" repeatCount="1" fill="freeze"/>
+</circle>
+<text x="831" y="111" fill="#e4edf8" font-size="20" font-weight="600">Ask the question</text>
+<text x="831" y="168" fill="#e4edf8" font-size="20" font-weight="600">Check the data</text>
+<text x="831" y="225" fill="#e4edf8" font-size="20" font-weight="600">Explain the result</text>
+</g></svg>

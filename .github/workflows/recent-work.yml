@@ -1,0 +1,40 @@
+name: Refresh recent project work
+
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_recent_work.py
+      - .github/workflows/recent-work.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-recent-work
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - name: Refresh project activity
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/update_recent_work.py
+      - name: Commit changes when needed
+        run: |
+          if git diff --quiet -- README.md; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m 'docs: refresh recent project updates'
+          git push
